@@ -5,26 +5,32 @@
     </head>
     <body>
         <div class="top">
-            <div class="left-side">
-                <a href= "myHomePage.html">About </a>
-                <a href= "anotherWebPage.html">Store </a>
+            <div id="left-side">
+                <ul>
+                    <li><a href= "myHomePage.html">About </a></li>
+                    <li><a href= "anotherWebPage.html">Store </a></li>
+                </ul>
             </div>
-            <div class="right-side">
+            <div id="right-side">
                 <a href= "goToMySite.html">Gmail</a>
                 <a href="iHaveNoImages.com">Images</a>
-                <button href="youRealyShouldSignIn.html">Signin </button>
+                <button id="top-button" href="youRealyShouldSignIn.html">Sign in </button>
             </div>
         </div>
-        <center>
+        <div id= "center">
             <div class="image">
                 <img src= images/googlelogo_color_272x92dp.png>
             </div>
-            <div class="search bar">
+            <div>
                 <form>
-                    <input type="text" maxlength="2048"> 
-                    <button>Search </button> <button>I'm feeling lucky!</button>
+                    <div class="search-bar">
+                        <input type="text" maxlength="2048">
+                    </div> 
+                    <div >
+                        <button class="form-button">Google Search </button> <button class="form-button">I'm feeling lucky!</button>
+                    </div>
                 </form>
             </div>
-        </center>
+        </div>
     </body>
 </html>
